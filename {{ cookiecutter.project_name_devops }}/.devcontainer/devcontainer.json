@@ -4,13 +4,6 @@
 	"runArgs": [
 		"--userns=keep-id"
 	],
-	"mounts": [
-		{
-			"source": "vscode-{{ cookiecutter.project_name_devops }}",
-			"target": "/home/vscode/.vscode-server/extensions",
-			"type": "volume"
-		}
-	],
 	"customizations": {
 		"vscode": {
 			"extensions": [
