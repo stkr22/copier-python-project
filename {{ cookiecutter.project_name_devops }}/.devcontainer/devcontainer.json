@@ -1,10 +1,13 @@
 {
 	"name": "{{ cookiecutter.project_name_devops }}-dev-environment",
 	"image": "mcr.microsoft.com/devcontainers/python:3.11",
+	"runArgs": [
+		"--userns=keep-id"
+	],
 	"mounts": [
 		{
 			"source": "vscode-{{ cookiecutter.project_name_devops }}",
-			"target": "/vscode/.vscode-server/extensions",
+			"target": "/home/vscode/.vscode-server/extensions",
 			"type": "volume"
 		}
 	],
@@ -22,9 +25,9 @@
 		}
 	},
 	"containerEnv": {
+		"HOME": "/home/vscode",
 		"POETRY_VIRTUALENVS_IN_PROJECT": "true"
 	},
-	"postCreateCommand": "pip install --user poetry pre-commit && poetry install",
-	"postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}"
+	"postCreateCommand": "pip install --user poetry pre-commit && poetry install"
 
 }
