@@ -1,0 +1,29 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "{{ python_package_distribution_name }}"
+version = "{{ version }}"
+description = "{{ project_description }}"
+authors = ["{{ author_full_name }} <{{ author_email }}>"]
+readme = "README.md"
+license = "{{ copyright_license }}"
+include = ["src"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.9"
+mypy = "^1.10.0"
+pytest = "^8.2.2"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP"]
+ignore = ["E203"]
