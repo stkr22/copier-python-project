@@ -1,6 +1,10 @@
 {
 	"name": "{{ python_package_distribution_name }}-dev-environment",
-	"image": "mcr.microsoft.com/devcontainers/python:3.12",
+	"build":
+		{
+			"dockerfile": "Containerfile",
+			"context": "."
+		},
 	"runArgs": [
 		"--userns=keep-id"
 	],
@@ -22,9 +26,8 @@
 		}
 	},
 	"containerEnv": {
-		"HOME": "/home/vscode",
-		"POETRY_VIRTUALENVS_IN_PROJECT": "true"
+		"HOME": "/home/vscode"
 	},
-	"postCreateCommand": "pip install --user poetry pre-commit && poetry install && pre-commit install"
+	"postCreateCommand": "uv sync --group dev && uvx pre-commit install"
 
 }
