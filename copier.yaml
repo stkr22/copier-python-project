@@ -37,7 +37,7 @@ author_full_name:
 codeowner_username:
   type: str
   help: "Name to be used in codeowners file."
-  default: "stkr22"
+  default: "@stkr22"
 
 author_email:
   type: str
