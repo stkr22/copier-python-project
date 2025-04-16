@@ -34,6 +34,11 @@ author_full_name:
   help: "Full name of the author."
   default: "Anonymous"
 
+codeowner_username:
+  type: str
+  help: "Name to be used in codeowners file."
+  default: "stkr22"
+
 author_email:
   type: str
   help: "Author's email address."
