@@ -24,11 +24,6 @@ project_description:
   help: "A short description of your project."
   default: "A new cool package."
 
-version:
-  type: str
-  help: "Initial version of your project."
-  default: "0.1.0"
-
 author_full_name:
   type: str
   help: "Full name of the author."
