@@ -21,7 +21,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-requires-python = ">=3.11,<3.13"
+requires-python = ">=3.12,<3.13"
 dependencies = []
 
 [dependency-groups]
@@ -78,7 +78,7 @@ warn_unused_configs = true
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
-addopts = "-ra -q --dist=auto"
+addopts = "-ra -q -n auto"
 
 [tool.coverage.run]
 source = ["{{ python_package_import_name }}"]
