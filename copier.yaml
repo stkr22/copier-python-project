@@ -82,7 +82,7 @@ copyright_license:
 publish_to_pypi:
   type: bool
   help: "Include PyPI publishing workflow?"
-  default: true
+  default: false
 
 use_containers:
   type: bool
