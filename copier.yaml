@@ -77,3 +77,14 @@ copyright_license:
   - PostgreSQL License
   - The Unlicense
   - zlib License
+
+# PROJECT FEATURES ----------------------
+publish_to_pypi:
+  type: bool
+  help: "Include PyPI publishing workflow?"
+  default: true
+
+use_containers:
+  type: bool
+  help: "Include container build and push workflows?"
+  default: false
