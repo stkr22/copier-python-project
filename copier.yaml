@@ -19,6 +19,11 @@ python_package_import_name:
   help: Your Python package import name (for `import NAME` in Python code)
   default: "{{ project_name|lower|replace('-', '_')|replace(' ', '_') }}"
 
+github_repository_name:
+  type: str
+  help: Your github repository name for url generation
+  default: "{{ project_name|lower|replace('_', '-')|replace(' ', '-') }}-py"
+
 project_description:
   type: str
   help: "A short description of your project."
@@ -33,6 +38,11 @@ codeowner_username:
   type: str
   help: "Name to be used in codeowners file."
   default: "@stkr22"
+
+github_username:
+  type: str
+  help: "GitHub username or organization"
+  default: "{{ codeowner_username.lstrip('@') }}"
 
 author_email:
   type: str

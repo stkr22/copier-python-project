@@ -21,8 +21,17 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
-requires-python = ">=3.12,<3.13"
+requires-python = ">=3.12,<3.14"
 dependencies = []
+
+
+[project.urls]
+Homepage = "https://github.com/{{ github_username }}/{{ github_repository_name }}"
+Repository = "https://github.com/{{ github_username }}/{{ github_repository_name }}"
+Documentation = "https://github.com/{{ github_username }}/{{ github_repository_name }}/tree/main/docs"
+Issues = "https://github.com/{{ github_username }}/{{ github_repository_name }}/issues"
+Changelog = "https://github.com/{{ github_username }}/{{ github_repository_name }}/blob/main/CHANGELOG.md"
+
 
 [dependency-groups]
 dev = [
