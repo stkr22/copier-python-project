@@ -37,8 +37,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/{{ github_repository }}:latest
-            ghcr.io/{{ github_repository }}:{% raw %}${{ github.sha }}{% endraw %}
-            ghcr.io/{{ github_repository }}:{% raw %}${{ env.VERSION }}{% endraw %}
+            ghcr.io/{% raw %}{{ github_repository }}{% endraw %}:latest
+            ghcr.io/{% raw %}{{ github_repository }}{% endraw %}:{% raw %}${{ github.sha }}{% endraw %}
+            ghcr.io/{% raw %}{{ github_repository }}{% endraw %}:{% raw %}${{ env.VERSION }}{% endraw %}
           cache-from: type=gha
           cache-to: type=gha,mode=max
