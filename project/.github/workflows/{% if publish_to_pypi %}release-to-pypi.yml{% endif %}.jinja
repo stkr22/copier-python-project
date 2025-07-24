@@ -1,15 +1,16 @@
-name: Python Build Package
+name: Publish to PyPI
 
 on:
-  push:
-    tags:
-      - 'v*'
+  release:
+    types: [published]
 
 jobs:
-  build:
+  build-and-publish:
     runs-on: ubuntu-latest
+
     permissions:
-      id-token: write
+        id-token: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4

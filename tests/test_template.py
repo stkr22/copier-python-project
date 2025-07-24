@@ -69,7 +69,7 @@ def test_bake_project_with_pypi_publishing(copie):
     assert result.project_dir.is_dir()
     
     # PyPI publishing file should be present
-    pypi_file = ".github/workflows/python_build_package.yml"
+    pypi_file = ".github/workflows/release-to-pypi.yml"
     assert (result.project_dir / pypi_file).exists(), f"PyPI workflow {pypi_file} should exist when publish_to_pypi=True"
 
 
@@ -85,7 +85,7 @@ def test_bake_project_without_pypi_publishing(copie):
     assert result.project_dir.is_dir()
     
     # PyPI publishing file should NOT be present
-    pypi_file = ".github/workflows/python_build_package.yml"
+    pypi_file = ".github/workflows/release-to-pypi.yml"
     assert not (result.project_dir / pypi_file).exists(), f"PyPI workflow {pypi_file} should not exist when publish_to_pypi=False"
 
 
@@ -107,7 +107,7 @@ def test_bake_project_all_features_enabled(copie):
         ".dockerignore",
         ".github/workflows/container-build-push.yml",
         ".github/workflows/container-build-pr.yml",
-        ".github/workflows/python_build_package.yml"
+        ".github/workflows/release-to-pypi.yml"
     ]
     
     for file_path in optional_files:
@@ -132,7 +132,7 @@ def test_bake_project_all_features_disabled(copie):
         ".dockerignore",
         ".github/workflows/container-build-push.yml",
         ".github/workflows/container-build-pr.yml",
-        ".github/workflows/python_build_package.yml"
+        ".github/workflows/release-to-pypi.yml"
     ]
     
     for file_path in optional_files:
@@ -163,5 +163,5 @@ def test_bake_project_mixed_features(copie):
         assert (result.project_dir / file_path).exists(), f"Container file {file_path} should exist when use_containers=True"
     
     # PyPI file should NOT be present
-    pypi_file = ".github/workflows/python_build_package.yml"
+    pypi_file = ".github/workflows/release-to-pypi.yml"
     assert not (result.project_dir / pypi_file).exists(), f"PyPI workflow {pypi_file} should not exist when publish_to_pypi=False"
