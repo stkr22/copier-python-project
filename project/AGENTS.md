@@ -116,9 +116,9 @@ async def render_feed(...):
 
 ---
 
-## 6. Commit discipline
+## 6. Commit discipline - ALL AI AGENTS MUST FOLLOW THIS
 
-- **Granular commits**: One logical change per commit.
+- **Granular commits**: One logical change per commit. The LEAST is ONE commit per issue. CLAUDE stick to this!
 - **Tag AI-generated commits**: e.g., `feat: optimise feed query [AI]`.
 - **Clear commit messages**: Explain the *why*; link to issues/ADRs if architectural. If an issue is fixed reference it as closes #XX. One reference per issue.
 - **Use `git worktree`** for parallel/long-running AI branches (e.g., `git worktree add ../wip-foo -b wip-foo`).
@@ -133,16 +133,6 @@ async def render_feed(...):
 - If a directory's `AGENTS.md` is outdated or incorrect, **update it**.
 - If you make significant changes to a directory's structure, patterns, or critical implementation details, **document these in its `AGENTS.md`**.
 - If a directory lacks a `AGENTS.md` but contains complex logic or patterns worth documenting for AI/humans, **suggest creating one**.
-
----
-
-## 12. Versioning conventions
-
-Semantic Versioning (SemVer: `MAJOR.MINOR.PATCH`) is generally followed, as specified in each component's `pyproject.toml` file.
-
-- **MAJOR** version update: For incompatible API changes.
-- **MINOR** version update: For adding functionality in a backward-compatible manner.
-- **PATCH** version update: For backward-compatible bug fixes.
 
 ---
 
