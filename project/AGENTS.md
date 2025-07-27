@@ -61,7 +61,7 @@
 
 ## Project Structure
 
-- `src/{{ python_package_distribution_name }}/`: Main package source
+- `src/`: Main package source
 - `tests/`: Test files (mirrors src structure)
 - `docs/`: Documentation source
 - `.github/workflows/`: CI/CD workflows
@@ -124,6 +124,7 @@ async def render_feed(...):
 - **Use `git worktree`** for parallel/long-running AI branches (e.g., `git worktree add ../wip-foo -b wip-foo`).
 - **Review AI-generated code**: Never merge code you don't understand.
 - **Always use conventional commit standard with gitmoji**: e.g. "feat:" "perf: :zap:"
+- **Never commit to main**: Always work with separate branches and Pull Requests.
 
 ---
 
