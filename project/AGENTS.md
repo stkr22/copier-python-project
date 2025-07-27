@@ -63,9 +63,9 @@
 
 - `src/`: Main package source
 - `tests/`: Test files (mirrors src structure)
-- `docs/`: Documentation source
+- `docs/`: Comprehensive documentation for users and developers
 - `.github/workflows/`: CI/CD workflows
-- `pyproject.toml`: Project configuration and dependencies
+- `pyproject.toml`: Project configuration and dependencies, and tool settings
 
 ## Environment Setup
 
