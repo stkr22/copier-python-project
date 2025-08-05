@@ -5,9 +5,19 @@
 			"dockerfile": "Containerfile",
 			"context": "."
 		},
+	"runArgs": [
+		"--cap-add=NET_RAW" # Needed for Claude Code IDE integration
+	],
 	"features": {
 		"ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/common-utils:2.5.3": {
+			"installZsh": true,
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": true,
+			"installOhMyZshConfig": true,
+			"upgradePackages": true
+		}
 	},
 	"customizations": {
 		"vscode": {
