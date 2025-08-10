@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.1](https://github.com/stkr22/copier-python-project/compare/v2.1.0...v2.1.1) (2025-08-10)
+
+
+### Bug Fixes
+
+* removing unused settings and add claude extension ([7a4e3ab](https://github.com/stkr22/copier-python-project/commit/7a4e3ab49a2c85d338210a91eaf19a18eb9e633f))
+* removing unused settings and add claude extension ([1cce35c](https://github.com/stkr22/copier-python-project/commit/1cce35cff364cf00575a549e2ebaf2643a5b0003))
+
 ## [2.1.0](https://github.com/stkr22/copier-python-project/compare/v2.0.0...v2.1.0) (2025-08-10)
 
 
