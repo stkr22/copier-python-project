@@ -1,0 +1,48 @@
+# Changelog
+
+## [2.0.0](https://github.com/stkr22/copier-python-project/compare/v1.4.11...v2.0.0) (2025-08-10)
+
+
+### ⚠ BREAKING CHANGES
+
+* Will break existing poetry installations
+
+### Features
+
+* :pushpin: adding commitizen and properly pin new dependencies ([f6bef10](https://github.com/stkr22/copier-python-project/commit/f6bef1051766827012d8ac0fa121a87c1bf158e9))
+* :sparkles: implementing uv ([c4a8383](https://github.com/stkr22/copier-python-project/commit/c4a838387c7e27a101f43980e47e395c97e2cff5))
+* :sparkles: implementing uv ([7d9e962](https://github.com/stkr22/copier-python-project/commit/7d9e962815cc2c69eca1a7e2e203289c7037e85d))
+* :sparkles: Update gitignore to include _version.py file ([975f27d](https://github.com/stkr22/copier-python-project/commit/975f27deed2c4fd7269c3971b96a0aebc14fdb0f))
+* :zap: Improving container-builds ([226831f](https://github.com/stkr22/copier-python-project/commit/226831f67914c1fcfab9bea23bb2f0670c737658))
+* adding agents instructions and dockerfile to project ([c3b4d9b](https://github.com/stkr22/copier-python-project/commit/c3b4d9b7d07f5f3914f9b4250dfbebb366460668))
+* adding github cli for claude ([6e3c221](https://github.com/stkr22/copier-python-project/commit/6e3c2212ea7c89da7cdd9817ba83f668f92c7b0b))
+* adjusting claude self referencing ([3decea1](https://github.com/stkr22/copier-python-project/commit/3decea1c9838914b2d0015d3aeaa826c78abe91a))
+* implementing claude code ([7f6a2b0](https://github.com/stkr22/copier-python-project/commit/7f6a2b034e9ff88b39cbccd30191ec7fdd8f6fff))
+* implementing claude code ide integration and oh my zsh ([75cda7a](https://github.com/stkr22/copier-python-project/commit/75cda7adfb76df593525bb93ec539fb5b0471051))
+* implementing codeowners file and adding classifiers ([2157597](https://github.com/stkr22/copier-python-project/commit/2157597ad648f312e76609d4e1e42e357a95e382))
+* implementing commitizen ([f4d7a21](https://github.com/stkr22/copier-python-project/commit/f4d7a2185ea07b385208c5614265c90e03fa0a2c))
+* implementing new release flow ([7388176](https://github.com/stkr22/copier-python-project/commit/7388176d85165ab9c9dce6ff6c51cfadcb053c77))
+* removing runArgs as new container vscode extension does this automatically for podman ([314dcf1](https://github.com/stkr22/copier-python-project/commit/314dcf162f7f35b4e52c8cf1da24baef32f70a21))
+* removing runArgs as new container vscode extension does this automatically for podman ([1aa53e6](https://github.com/stkr22/copier-python-project/commit/1aa53e694a50469ed7590a80d922de67f00b36d7))
+* updating Agents.md and using soft link ([bed7d82](https://github.com/stkr22/copier-python-project/commit/bed7d8201172f7e4ded90c5a12a0c40922eb4812))
+
+
+### Bug Fixes
+
+* :bug: fix failing tests because of unescaped workflow variables ([0016c1a](https://github.com/stkr22/copier-python-project/commit/0016c1a6017eb7f7c0ed9290586551d0b4db3c5e))
+* :bug: Limiting cspell to src folder to avoid issues with large number of errors ([8962fbf](https://github.com/stkr22/copier-python-project/commit/8962fbf88359a61b8334af16e561575087222378))
+* broken config dir reference ([8080edd](https://github.com/stkr22/copier-python-project/commit/8080edd20cf7f27e0210849c3a3a85642c312c36))
+* broken pipeline ([e2c5bec](https://github.com/stkr22/copier-python-project/commit/e2c5bec898f888f02253414350d66eabbb60cdb6))
+* broken var reference ([a2f8cad](https://github.com/stkr22/copier-python-project/commit/a2f8cad86ac566309c7884d528422c0e0dd6e493))
+* claude.md missing ([c06dade](https://github.com/stkr22/copier-python-project/commit/c06dadeb3399d07f3a36505e6a514970efebd2b8))
+* default codeowner ([24f2612](https://github.com/stkr22/copier-python-project/commit/24f26127ed7893f47f7b9d0f7da5a2887f5ad37b))
+* docker build ([295bf1f](https://github.com/stkr22/copier-python-project/commit/295bf1fe05d433961c1711fd4c4b5b5fbc5e4f01))
+* files being generated even if flags were false ([877d1ac](https://github.com/stkr22/copier-python-project/commit/877d1ac6a0c6675bf91b3e72ff0ba7e19774cd76))
+* fix uv not working with scm based versioning and update commitizen ([4aed99c](https://github.com/stkr22/copier-python-project/commit/4aed99cb9a5c6c8074f4c59127e83e751d6cdd5c))
+* fixing devcontainer mount issue ([e2b6d19](https://github.com/stkr22/copier-python-project/commit/e2b6d1959661aac0c7ea1a5114c05a5d8c7fefa9))
+* missing comma ([8eefa42](https://github.com/stkr22/copier-python-project/commit/8eefa4204211c0b1a86897dd406c83109675ec04))
+* permissions ([33b9dd9](https://github.com/stkr22/copier-python-project/commit/33b9dd99c21eb0edfa315f7d7898778fa4d93145))
+* pytest config command for xdist and claude.md as main config ([5f9f262](https://github.com/stkr22/copier-python-project/commit/5f9f26270877f53eacd6428bc11905d424655ee0))
+* update agents ([d6c87cd](https://github.com/stkr22/copier-python-project/commit/d6c87cd8cff09347ae9f99dcad64eedb2938e0b0))
+* update agents.md ([693736e](https://github.com/stkr22/copier-python-project/commit/693736e44686d971d95f22fc80bc3787c6ac1506))
+* update commit discipline ([b03f6ca](https://github.com/stkr22/copier-python-project/commit/b03f6ca8968a48740e8490cfc233ff668ae68500))
