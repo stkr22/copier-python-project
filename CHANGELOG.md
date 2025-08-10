@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/stkr22/copier-python-project/compare/v2.0.0...v2.1.0) (2025-08-10)
+
+
+### Features
+
+* switching to prebuilt containerfile and removing unused env variabesl ([05ce820](https://github.com/stkr22/copier-python-project/commit/05ce820a23f1ac5ff6f5512f96463899cf543be8))
+* switching to prebuilt containerfile and removing unused env variabesl ([367579a](https://github.com/stkr22/copier-python-project/commit/367579a9d45bb25c7e4c5eb01b0dd961fd78df43))
+
 ## [2.0.0](https://github.com/stkr22/copier-python-project/compare/v1.4.11...v2.0.0) (2025-08-10)
 
 
