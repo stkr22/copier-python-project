@@ -10,7 +10,10 @@ authors = [
     { name = "{{ author_full_name }}", email = "{{ author_email }}" }
 ]
 readme = "README.md"
-license = { text = "{{ copyright_license }}" }
+license = "{{ copyright_license }}"
+license-files = [
+    "LICENSE",
+]
 
 keywords = []
 classifiers = [
@@ -51,7 +54,6 @@ source = "vcs"
 version-file = "src/{{ python_package_import_name }}/_version.py"
 
 [tool.ruff]
-target-version = "py312"
 line-length = 120
 indent-width = 4
 
@@ -80,7 +82,6 @@ quote-style = "double"
 indent-style = "space"
 
 [tool.mypy]
-python_version = "3.12"
 warn_return_any = true
 warn_unused_configs = true
 
