@@ -1,5 +1,22 @@
 # Changelog
 
+## [3.0.0](https://github.com/stkr22/copier-python-project/compare/v2.1.1...v3.0.0) (2025-08-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* old copyright names not supported
+
+### Features
+
+* updating to new PEP SPDX Expression and removing licenses ([50c80ee](https://github.com/stkr22/copier-python-project/commit/50c80ee6a76887dbcad419adaec7f17cd3cbfbaf))
+
+
+### Bug Fixes
+
+* removing static type checker linter versions; ([3b092ad](https://github.com/stkr22/copier-python-project/commit/3b092adbd6dc3d4ddf3a6168ad06ee3371892457))
+* removing static type checker linter versions; ([df71891](https://github.com/stkr22/copier-python-project/commit/df718918f3b0eea1508398f7b8701d2408e3108b))
+
 ## [2.1.1](https://github.com/stkr22/copier-python-project/compare/v2.1.0...v2.1.1) (2025-08-10)
 
 
