@@ -1,10 +1,10 @@
 [build-system]
-requires = ["hatchling", "hatch-vcs"]
-build-backend = "hatchling.build"
+requires = ["uv_build>=0.8.11,<0.9.0"]
+build-backend = "uv_build"
 
 [project]
 name = "{{ python_package_distribution_name }}"
-dynamic = ["version"]
+version = "{{ python_package_version }}"
 description = "{{ project_description }}"
 authors = [
     { name = "{{ author_full_name }}", email = "{{ author_email }}" }
@@ -27,14 +27,12 @@ classifiers = [
 requires-python = ">=3.12,<3.14"
 dependencies = []
 
-
 [project.urls]
 Homepage = "https://github.com/{{ github_username }}/{{ github_repository_name }}"
 Repository = "https://github.com/{{ github_username }}/{{ github_repository_name }}"
 Documentation = "https://github.com/{{ github_username }}/{{ github_repository_name }}/tree/main/docs"
 Issues = "https://github.com/{{ github_username }}/{{ github_repository_name }}/issues"
 Changelog = "https://github.com/{{ github_username }}/{{ github_repository_name }}/blob/main/CHANGELOG.md"
-
 
 [dependency-groups]
 dev = [
@@ -46,12 +44,6 @@ dev = [
     "coverage[toml]~=7.6.0",
     "commitizen~=4.8.3",
 ]
-
-[tool.hatch.version]
-source = "vcs"
-
-[tool.hatch.build.targets.wheel.hooks.vcs]
-version-file = "src/{{ python_package_import_name }}/_version.py"
 
 [tool.ruff]
 line-length = 120
