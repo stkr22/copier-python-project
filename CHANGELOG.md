@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.1.0](https://github.com/stkr22/copier-python-project/compare/v3.0.0...v3.1.0) (2025-08-15)
+
+
+### Features
+
+* 👷 Using uv_build as build backend ([8de728a](https://github.com/stkr22/copier-python-project/commit/8de728a35ed82e265c0f77f097972620d6902acf))
+* reverting to setup-uv defaults and fixing code quality not running on PR blocking status check ([658cf24](https://github.com/stkr22/copier-python-project/commit/658cf2452e38c9f064cd9c7bc4c7c8b0db9ead1e))
+
 ## [3.0.0](https://github.com/stkr22/copier-python-project/compare/v2.1.1...v3.0.0) (2025-08-12)
 
 
