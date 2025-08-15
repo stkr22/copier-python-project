@@ -24,6 +24,11 @@ github_repository_name:
   help: Your github repository name for url generation
   default: "{{ project_name|lower|replace('_', '-')|replace(' ', '-') }}-py"
 
+python_package_version:
+  type: str
+  help: "Initial version of your project."
+  default: "0.1.0"
+
 project_description:
   type: str
   help: "A short description of your project."
