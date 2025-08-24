@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.0](https://github.com/stkr22/copier-python-project/compare/v3.1.0...v3.2.0) (2025-08-24)
+
+
+### Features
+
+* updating renovate config ([d32de3f](https://github.com/stkr22/copier-python-project/commit/d32de3f24ad6695c53e79de2fd44bb8f1cc5e722))
+
 ## [3.1.0](https://github.com/stkr22/copier-python-project/compare/v3.0.0...v3.1.0) (2025-08-15)
 
 
