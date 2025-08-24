@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.2.1](https://github.com/stkr22/copier-python-project/compare/v3.2.0...v3.2.1) (2025-08-24)
+
+
+### Bug Fixes
+
+* adding missing release-please config ([4a41818](https://github.com/stkr22/copier-python-project/commit/4a418184c3ee184551fe0917806a604e3c9ed19c))
+
 ## [3.2.0](https://github.com/stkr22/copier-python-project/compare/v3.1.0...v3.2.0) (2025-08-24)
 
 
