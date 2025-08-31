@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.3.0](https://github.com/stkr22/copier-python-project/compare/v3.2.1...v3.3.0) (2025-08-31)
+
+
+### Features
+
+* loosen codeowners protection ([9a2f48c](https://github.com/stkr22/copier-python-project/commit/9a2f48c01ed3cf1dd87a08a36da1e0ad3dcf055a))
+
 ## [3.2.1](https://github.com/stkr22/copier-python-project/compare/v3.2.0...v3.2.1) (2025-08-24)
 
 
