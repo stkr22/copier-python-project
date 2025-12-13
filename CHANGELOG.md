@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.4.0](https://github.com/stkr22/copier-python-project/compare/v3.3.0...v3.4.0) (2025-12-13)
+
+
+### Features
+
+* updating github actions and devcontainer ([500d9a6](https://github.com/stkr22/copier-python-project/commit/500d9a657f121d9b9d5262ef3ef4e1a01c7c7981))
+* updating github actions and devcontainer ([3b2479c](https://github.com/stkr22/copier-python-project/commit/3b2479c7a812d4270a0375aa8bf930d0f35e86ef))
+
 ## [3.3.0](https://github.com/stkr22/copier-python-project/compare/v3.2.1...v3.3.0) (2025-08-31)
 
 
