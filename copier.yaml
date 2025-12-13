@@ -61,7 +61,7 @@ copyright_license:
   choices:
   - MIT
   - Apache-2.0
-  - GPL-3.0
+  - GPL-3.0-only
   - BSD-3-Clause
   - LGPL-3.0
   - AGPL-3.0
