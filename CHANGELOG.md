@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.4.1](https://github.com/stkr22/copier-python-project/compare/v3.4.0...v3.4.1) (2025-12-13)
+
+
+### Bug Fixes
+
+* updating glp license ([7d405bd](https://github.com/stkr22/copier-python-project/commit/7d405bd049d0c8350c6e72197f24e2a4107aadc9))
+
 ## [3.4.0](https://github.com/stkr22/copier-python-project/compare/v3.3.0...v3.4.0) (2025-12-13)
 
 
