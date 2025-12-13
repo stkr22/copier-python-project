@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.0](https://github.com/stkr22/copier-python-project/compare/v3.4.1...v3.5.0) (2025-12-13)
+
+
+### Features
+
+* upating build system / deps and remove commitizen ([6a6a42b](https://github.com/stkr22/copier-python-project/commit/6a6a42b961317862320a1b14a025d4ca7c55c0ba))
+
 ## [3.4.1](https://github.com/stkr22/copier-python-project/compare/v3.4.0...v3.4.1) (2025-12-13)
 
 
