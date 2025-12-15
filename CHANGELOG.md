@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.5.1](https://github.com/stkr22/copier-python-project/compare/v3.5.0...v3.5.1) (2025-12-15)
+
+
+### Bug Fixes
+
+* updating renovate config for better PRs ([d02578c](https://github.com/stkr22/copier-python-project/commit/d02578c456fa253d062652549a24fc1915a8e4ac))
+
 ## [3.5.0](https://github.com/stkr22/copier-python-project/compare/v3.4.1...v3.5.0) (2025-12-13)
 
 
