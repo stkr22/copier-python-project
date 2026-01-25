@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.0](https://github.com/stkr22/copier-python-project/compare/v3.6.0...v3.7.0) (2026-01-25)
+
+
+### Features
+
+* fix spacing devcontainer settings and add mypy configuration ([a86b95f](https://github.com/stkr22/copier-python-project/commit/a86b95fb82314de622136a1c815f164b41f36541))
+
 ## [3.6.0](https://github.com/stkr22/copier-python-project/compare/v3.5.0...v3.6.0) (2026-01-25)
 
 
