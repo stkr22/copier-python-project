@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.6.0](https://github.com/stkr22/copier-python-project/compare/v3.5.0...v3.6.0) (2026-01-25)
+
+
+### Features
+
+* add pre-commit configuration with various hooks for code quality checks ([64a775f](https://github.com/stkr22/copier-python-project/commit/64a775fdb2b4be5988a6a75ee9ed74821b6af338))
+* move settings for pytest and ruff to separate tomls, and update pyproject.toml ([a7a498e](https://github.com/stkr22/copier-python-project/commit/a7a498ed46a87f31f5621f5104abda9e5c52b819))
+* update AGENTS.mg for new instructions and changing python badge ([70d11bd](https://github.com/stkr22/copier-python-project/commit/70d11bd352498a28799e3394302a69f6d7755f0e))
+* update devcontainer image, add devcontainer features and move vscode settings to devcontainer.json ([a8a6a86](https://github.com/stkr22/copier-python-project/commit/a8a6a86b8c8973b43c2cf17bd9e08497dfa11764))
+
+
+### Bug Fixes
+
+* license bug for gpl-only ([83f7046](https://github.com/stkr22/copier-python-project/commit/83f704687dec9a5d37f82bbfbfdd68d1733cd8d3))
+* updating renovate config for better PRs ([d02578c](https://github.com/stkr22/copier-python-project/commit/d02578c456fa253d062652549a24fc1915a8e4ac))
+
 ## [3.5.0](https://github.com/stkr22/copier-python-project/compare/v3.4.1...v3.5.0) (2025-12-13)
 
 
