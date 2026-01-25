@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.2](https://github.com/stkr22/copier-python-project/compare/v3.7.1...v3.7.2) (2026-01-25)
+
+
+### Bug Fixes
+
+* update linting rules to ignore additional D203 and D213 errors ([2239d2c](https://github.com/stkr22/copier-python-project/commit/2239d2c19f0303f07e0c7b04871963486581e8fd))
+
 ## [3.7.1](https://github.com/stkr22/copier-python-project/compare/v3.7.0...v3.7.1) (2026-01-25)
 
 
