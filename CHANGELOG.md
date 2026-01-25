@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.1](https://github.com/stkr22/copier-python-project/compare/v3.7.0...v3.7.1) (2026-01-25)
+
+
+### Bug Fixes
+
+* correct formatting in configuration files and ensure proper newline endings ([b939486](https://github.com/stkr22/copier-python-project/commit/b939486a293e4a0247d2622df215680d30ab4582))
+
 ## [3.7.0](https://github.com/stkr22/copier-python-project/compare/v3.6.0...v3.7.0) (2026-01-25)
 
 
