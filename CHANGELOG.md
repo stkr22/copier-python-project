@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.3](https://github.com/stkr22/copier-python-project/compare/v3.7.2...v3.7.3) (2026-01-26)
+
+
+### Bug Fixes
+
+* update mypy configuration and pre-commit hooks ([9bae8e5](https://github.com/stkr22/copier-python-project/commit/9bae8e5e667146779f69a7612e932e3b57055950))
+
 ## [3.7.2](https://github.com/stkr22/copier-python-project/compare/v3.7.1...v3.7.2) (2026-01-25)
 
 
