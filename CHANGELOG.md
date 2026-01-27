@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.7.4](https://github.com/stkr22/copier-python-project/compare/v3.7.3...v3.7.4) (2026-01-27)
+
+
+### Bug Fixes
+
+* deactivate python runtime updates in renovate ([e4e96b0](https://github.com/stkr22/copier-python-project/commit/e4e96b09f42d51b838bb90376f3c1805727d0e6c))
+
 ## [3.7.3](https://github.com/stkr22/copier-python-project/compare/v3.7.2...v3.7.3) (2026-01-26)
 
 
