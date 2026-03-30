@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.8.0](https://github.com/stkr22/copier-python-project/compare/v3.7.4...v3.8.0) (2026-03-30)
+
+
+### Features
+
+* add starship.rs feature to devcontainer configuration ([8eaee0e](https://github.com/stkr22/copier-python-project/commit/8eaee0e2cc3165b021a2173897246106acc245ee))
+* add starship.rs feature to devcontainer configuration ([b875536](https://github.com/stkr22/copier-python-project/commit/b875536441910787f259f3657f7e571693cb2a58))
+
 ## [3.7.4](https://github.com/stkr22/copier-python-project/compare/v3.7.3...v3.7.4) (2026-01-27)
 
 
